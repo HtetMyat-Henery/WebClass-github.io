@@ -1,0 +1,39 @@
+.navigation{
+    padding: 35px 0;
+
+    .link{
+        margin-bottom: 0;
+        text-align: right;
+
+        li{
+            padding: 0 20px;
+        }
+
+        a{
+            font-family: 'Merriweather', serif;
+            color: #5e5e5e;
+            font-size: 18px;
+        }
+        a:hover{
+            text-decoration: none;
+            color: $hover-color;
+            transition: all 0.4s ease-in-out;
+        }
+        a:focus{
+            text-decoration: none;
+            color: $hover-color;
+            background-color: transparent;
+        }  
+    }
+
+    .logo{
+        font-family: 'Merriweather', serif;
+        color: #5e5e5e;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 3px;  
+    }
+    .logo:hover{
+        text-decoration: none;
+    }
+}

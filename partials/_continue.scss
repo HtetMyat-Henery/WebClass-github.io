@@ -1,0 +1,20 @@
+.hero-continue{
+    @extend %header;
+    background-image: url('images/single-post-bg.jpg') !important;
+    padding: 150px;  
+}
+
+.content{
+    .post-status{
+        padding-bottom: 30px;
+    }
+
+    .p-info{
+        padding: 0 10px;
+        display: inline;
+    }
+
+    .author{
+        width: 50px;
+    }
+}

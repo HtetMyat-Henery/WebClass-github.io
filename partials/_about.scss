@@ -1,0 +1,31 @@
+.hero-abtUs{
+    @extend %header;
+    background-image: url('images/about-bg.jpg') !important;
+    padding: 150px;
+}
+
+.content{
+    p{
+        color: $grey-color;
+    }
+    .row{
+        margin: 100px 0;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    h1{
+        font-size: 32px;
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: 26px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        margin-top: 0;
+    }
+}
